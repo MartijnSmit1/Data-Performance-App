@@ -1,0 +1,40 @@
+body {
+	color:#555 !important;
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 2px solid #81D4D9 !important;
+	border-radius: 15px !important;
+
+}
+
+h2 {
+	color: #81D4D9 !important;
+}
+
+h1 {
+	color: #81D4D9 !important;
+}
+
+.btn-default {
+	color: #fff !important;
+	background-color: #81D4D9 !important;
+	border: 2px solid #81D4D9 !important;
+	border-radius: 15px !important;
+
+}
+
+td {
+	border: 1px solid blue;
+	background-color: lightblue;
+	padding: 3px;
+}
