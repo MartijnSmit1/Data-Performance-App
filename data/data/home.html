@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"> </script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+   
+  </head>
+  <body>
+  <ul class="navigation">
+    <br>
+    <li class="nav-item"><a href="home.html">Home</a></li>
+    <li class="nav-item"><a href="#">Portfolio</a></li>
+    <li class="nav-item"><a href="#">About</a></li>
+    <li class="nav-item"><a href="#">Blog</a></li>
+    <li class="nav-item"><a href="#">Contact</a></li>
+</ul>
+
+    
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger"></label>
+
+<div class="site-wrap">
+    <script>
+        function () {
+            $('#datetimepicker10').datetimepicker({
+                viewMode: 'years',
+                format: 'MM/YYYY'
+            });
+        };
+    </script>
+
+    <div id="chart-wrapper">
+    <div id="piechart"></div>
+    <div id="columnchart_values"></div>
+    </div>
+</div>
+
+  
+  </body>
+</html>
